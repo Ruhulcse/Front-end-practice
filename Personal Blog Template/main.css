@@ -1,0 +1,91 @@
+.one{
+    text-align: center;
+    font-display: auto;
+    font-family: sans-serif;
+}
+
+
+li{
+    display: inline;
+    float:left;
+}
+
+a{
+    display:block;
+    padding: 8px;
+    padding-left: 100px;
+    padding-right: 75px;
+    background-color:orchid;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+a:hover{
+    color: red;
+}
+.body{
+    margin-top: 10px;
+    width: auto;
+    height: 760px;
+    background-color:gray;
+}
+.up{
+    height: 1px;
+    width: 100;
+    overflow: hidden;
+}
+.ls{
+    height: 95%;
+    width:25%;
+    float: left;
+    border-color: 1px solid black;
+    overflow: hidden;
+}
+.rs{
+    
+    width: 70%;
+    float: right;
+     height: 92%;;
+   
+    padding: 10px;
+    overflow: hidden;
+}
+.rsl{
+    width: 20%;
+    float: right;
+    height: 100%;
+}
+.rsl img{
+    border-radius: 100%;
+    height: 30%;
+  float: left;
+}
+.rsl a{
+    background-color:darkgray;
+    padding-left: 40%;
+}
+.rsl li a{
+    color: green;
+    padding-left: 10%;
+    font-size:20px;
+    padding-bottom: 30px;
+}
+.rsf{
+    float:right;
+    width: 80%;
+    height: 100%;
+}
+img{
+    width:99%;
+    padding-right: 10px
+}
+.tx{
+    height: 80px;
+   width: 220px;
+}
+.final{
+    background-color: dimgrey;
+    text-align: center;
+    padding-top: 10px
+}
