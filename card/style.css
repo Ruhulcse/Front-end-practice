@@ -1,0 +1,145 @@
+body{
+	background-color: #792b92;
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	height:  350px;
+	width: 500px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	perspective: 800px;
+	-webkit-perspective:800px;
+}
+.card{
+	height: 100%;
+	width: 100%;
+	border: 2px solid black;
+	transform-style: preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	transition: 2s;
+}
+.card:hover{
+	transform: rotateY(-180deg);
+}
+.front{
+	background-color: #252628;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	backface-visibility: hidden;
+}
+.logo{
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	top: 80px;
+} 
+.name{
+	position: absolute;
+	color: white;
+	font-size: 23px;
+	top: 175px;
+	font-family: "poppins",sans-serif;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+.slogan{
+	color: #faa51a;
+	font-family: "Work Sans",sans-serif;
+	position: absolute;
+	top: 210px;
+	font-size: 20px;
+	font-style: italic;
+}
+.back{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+}
+.container{
+	background-color: #252628;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.container:before{
+  position: absolute;
+  content:"";
+  background-color: #252628;
+  height: 95px;
+  width: 170px;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 45px 45px 0 0;
+}
+.qr{
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 215px;
+	bottom: 7px;
+}
+.details{
+	height: 255px;
+	width: 285px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	color: #252628;
+}
+.name1{
+	font-family: "poppins",sans-serif;
+	font-size: 28px;
+	position: absolute;
+	top: 10px;
+	letter-spacing: 1px;
+	font-weight: 700px;
+}
+.position{
+	font-family: "poppins",sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	position: absolute;
+	top: 42px;
+	color: #444444;
+}
+.divider{
+	background-color: #faa51a;
+	height: 2px;
+	width: 50px;
+	position: absolute;
+	top: 80px;
+}
+.number,.email,.address{
+	font-size: 16px;
+	font-family: "Work Sans",sans-serif;
+}
+.number{
+	position: absolute;
+	top: 110px;
+}
+.email{
+	position: absolute;
+	top: 155px;
+}
+.address{
+	position: absolute;
+	top: 198px;
+}
